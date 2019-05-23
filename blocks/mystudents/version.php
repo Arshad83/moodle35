@@ -15,18 +15,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details.
+ * My students block.
  *
- * @package format_onetopic
- * @copyright 2015 David Herney Bernal - cirano
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    block_mystudents
+ * @copyright  2018 Namur University
+ * @author     Laurence Dumortier <laurence.dumortier@unamur.be>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2018010608;        // The current plugin version (Date: YYYYMMDDXX).
-$plugin->requires  = 2017050500;        // Requires this Moodle version.
-$plugin->component = 'format_mycustom';    // Full name of the plugin (used for diagnostics).
-$plugin->maturity = MATURITY_STABLE;
-$plugin->release = '2017050500';
-$plugin->dependencies = array('format_topics' => 2017050500); //depend only on topic format
+$plugin->version   = 2019052002;
+$plugin->requires  = 2017050500;
+$plugin->component = 'block_mystudents';
+$plugin->release = 'v0.1';
+$plugin->maturity = MATURITY_ALPHA;
